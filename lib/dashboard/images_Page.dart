@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-
+ 
+class ImagesDisplayPage extends StatefulWidget {
+ const ImagesDisplayPage({super.key});
 
 
   @override
