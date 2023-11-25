@@ -101,4 +101,9 @@ class DashboardsPage extends StatelessWidget {
                 avatarImage: AssetImage('images/icon7.jpeg'),
                 title: 'Deleted the completed task',
                 subtitle: '2 days ago'),
-          
+          ],
+        )),
+      ),
+    );
+  }
+}
