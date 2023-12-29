@@ -8,8 +8,4 @@ Future<void> initializeFirebase() async {
       projectId: "student-app-eaeb4",
       storageBucket: "student-app-eaeb4.appspot.com",
       messagingSenderId: "533429540685",
-      appId: "1:533429540685:web:1bfaca8f36deae25f94904",
-      measurementId: "G-5LYVKV3XPF",
-    ),
-  );
-}
+      
