@@ -286,6 +286,10 @@ class ToDoItem extends StatelessWidget {
     );
   }
 }
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(const MaterialApp(
+    home: AssignmentsPage(),
 
 
   ));
