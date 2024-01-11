@@ -163,16 +163,7 @@ class _MyAppState extends State<GradesPage> {
 
   //delete data //
 
-  deleteData() {
-    DocumentReference documentReference =
-        FirebaseFirestore.instance.collection("MyStudents").doc(studentName);
 
-    documentReference.delete().then((_) {
-      print("$studentName's data Deleted");
-    }).catchError((error) {
-      print("Error deleting $studentName's data: $error");
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
